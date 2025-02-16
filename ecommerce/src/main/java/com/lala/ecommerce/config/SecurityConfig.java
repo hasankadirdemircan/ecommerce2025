@@ -29,7 +29,9 @@ public class SecurityConfig {
 
     private static final String[] CUSTOMER_WHITE_LIST = {
             "/customers/register",
-            "/customers/login"
+            "/customers/login",
+            "/products/create",
+            "/products/create2"
     };
 
     private static final String[] SWAGGER_WHITE_LIST = {
